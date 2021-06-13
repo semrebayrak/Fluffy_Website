@@ -1,0 +1,143 @@
+.ProfileArea{
+
+
+    background-color: #08ffde1c;
+    width:60vw;
+    height: 80vh;
+   
+    border-radius: 30px;
+    box-shadow: 1   5px 5px 61px 7px #888888;
+    margin: 10vh 20vw;
+}
+
+
+.ProfileArea .icons{
+    box-shadow: 5px 1px 10px #888888;
+    border: 0.1vw solid rgb(0, 0, 0);
+    border-radius: 30px;
+    background-color: white;
+    width: 60vw;
+    height: 10vh;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+.blank{
+    font-size: 2em;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    line-height: 5vh;
+    border-radius: 30px;
+    background-color: #16119846 ;
+    width: 15vw;
+   
+    float: left;
+    height: 10vh;
+}
+.buttondisabled{
+    
+    border: 0.1vw solid rgba(124, 113, 113, 0.308);
+    font-size: 1vw;
+    width: 11vw;
+    height: 10vh;   
+    color: grey;
+    float:left;
+    text-align: center;
+    line-height: 13vh;
+    background-color: transparent;
+    padding: 0 0 0 0;
+}
+
+.buttonactive{
+    
+    border: 0.1vw solid rgba(124, 113, 113, 0.308);
+    font-size: 1vw;
+    width: 11vw;
+    height: 10vh;   
+    color: rgb(76, 95, 94);
+    float:left;
+    text-align: center;
+    line-height: 11vh;
+    background-color: transparent;
+    padding: 0px 0px 0px 0px;
+}
+
+
+
+
+.sidearea{
+    border: 0.1vw solid rgba(124, 113, 113, 0.308);
+    width: 15vw;
+    height: 70vh;
+    background-color: #ffffffab;
+    float: left;
+}
+
+
+.userinfodisabled{
+    border: 0.1vw solid rgba(124, 113, 113, 0.308);   
+    text-align: center;
+    
+    font-size: 1.2em;
+    font-family: 'Quicksand', sans-serif;
+    height: 7vh;
+    background-color: transparent;
+    padding: 0px 0px 0px 0px;
+    color: #000000;
+
+}
+.userinfoactive{
+    border: 0.1vw solid rgba(124, 113, 113, 0.308);   
+    text-align: center;
+    line-height: 6vh;
+    font-size: 1.2em;
+    font-family: 'Quicksand', sans-serif;
+    height: 7vh;
+    color: #151998;
+    background-color: #4432322d;
+    padding: 0px 0px 0px 70px;
+    overflow: hidden;
+}
+
+
+.profilepicture img{
+
+    float: left;
+    width: 10vw;
+    height: auto;
+}
+
+.user .details h1{
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 2.5vw;
+    padding-right: 0vw;
+    padding-top:3vh;
+    padding-bottom: 0;
+    font-size: 1vw ;
+    overflow:hidden;
+   
+  
+    
+}
+.user .titles{
+   
+    float: left;
+   
+}
+.user{
+    width:45vw;
+    height: 70vh;
+    background-color: #867b1118;
+    float: left;
+    
+}
+
+.user .details{
+    padding-top: 1vh;
+    width: 35vw;
+    height: 70vh;
+    float:left;
+    overflow: hidden;
+  
+   
+    
+}

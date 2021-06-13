@@ -1,0 +1,30 @@
+image{
+
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: -1;
+}
+
+.hero-container{
+
+    background: url('../assets/herobanner.png') center center/cover no-repeat; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0,2);
+    object-fit: contain;
+}
+
+h1 {
+    padding: 60px;
+    font-size: 50px;
+}
+p {
+    font-size: 25px;
+    padding-bottom: 160px;
+   
+}
